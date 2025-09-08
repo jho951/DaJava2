@@ -3,16 +3,25 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-      <profile name="Gradle Imported" enabled="true">
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
-        </processorPath>
-        <module name="backend.main" />
-      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="backend.main" target="21" />
+      <module name="backend.test" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="backend" options="" />
+      <module name="backend.core-domain" options="" />
+      <module name="backend.core-domain.main" options="" />
+      <module name="backend.core-domain.test" options="" />
+      <module name="backend.support-cache-redis" options="" />
+      <module name="backend.support-cache-redis.main" options="" />
+      <module name="backend.support-cache-redis.test" options="" />
+      <module name="backend.support-persistence" options="" />
+      <module name="backend.support-persistence.main" options="" />
+      <module name="backend.support-persistence.test" options="" />
+    </option>
   </component>
 </project>

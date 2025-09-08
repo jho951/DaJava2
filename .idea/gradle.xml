@@ -11,6 +11,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/backend" />
+            <option value="$PROJECT_DIR$/backend/app-api" />
+            <option value="$PROJECT_DIR$/backend/core-domain" />
+            <option value="$PROJECT_DIR$/backend/support-cache-redis" />
+            <option value="$PROJECT_DIR$/backend/support-persistence" />
           </set>
         </option>
       </GradleProjectSettings>
