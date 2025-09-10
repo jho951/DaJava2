@@ -1,4 +1,4 @@
-package com.dajava.backend.global.utils.session;
+package com.dajava.api.global.utils.session;
 
 import java.util.Collections;
 import java.util.Set;
@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Component;
-import com.dajava.backend.global.utils.LogUtils;
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.global.utils.LogUtils;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
 
 import lombok.RequiredArgsConstructor;
 

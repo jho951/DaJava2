@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.dto;
+package com.dajava.api.domain.event.dto;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotNull;

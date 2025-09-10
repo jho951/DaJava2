@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.image.exception;
+package com.dajava.api.domain.image.exception;
 
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.global.exception.ErrorCode;
 
 public class ImageException extends RuntimeException {
 	public final ErrorCode errorCode;

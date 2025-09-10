@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.scheduler.vaildation;
+package com.dajava.api.domain.event.es.scheduler.vaildation;
 
 import java.util.List;
 
@@ -8,19 +8,19 @@ import org.springframework.data.elasticsearch.UncategorizedElasticsearchExceptio
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.event.es.entity.PointerClickEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerMoveEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerScrollEventDocument;
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
-import com.dajava.backend.domain.event.es.service.PointerEventDocumentService;
-import com.dajava.backend.domain.event.es.service.SessionDataDocumentService;
-import com.dajava.backend.domain.event.es.service.SolutionEventDocumentService;
-import com.dajava.backend.domain.event.exception.PointerEventException;
-import com.dajava.backend.domain.log.converter.EventConverter;
-import com.dajava.backend.global.component.analyzer.BufferSchedulerProperties;
-import com.dajava.backend.global.sentry.SentryMonitored;
-import com.dajava.backend.global.utils.EventsUtils;
+import com.dajava.api.domain.event.es.entity.PointerClickEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerMoveEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerScrollEventDocument;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.event.es.service.PointerEventDocumentService;
+import com.dajava.api.domain.event.es.service.SessionDataDocumentService;
+import com.dajava.api.domain.event.es.service.SolutionEventDocumentService;
+import com.dajava.api.domain.event.exception.PointerEventException;
+import com.dajava.api.domain.log.converter.EventConverter;
+import com.dajava.api.global.component.analyzer.BufferSchedulerProperties;
+import com.dajava.api.global.sentry.SentryMonitored;
+import com.dajava.api.global.utils.EventsUtils;
 
 import co.elastic.clients.elasticsearch._types.ElasticsearchException;
 import io.sentry.SentryLevel;

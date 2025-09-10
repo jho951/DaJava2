@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.scheduler.vaildation;
+package com.dajava.api.domain.event.scheduler.vaildation;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -12,11 +12,11 @@ import java.util.stream.Collectors;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.event.entity.PointerClickEvent;
-import com.dajava.backend.domain.event.entity.PointerMoveEvent;
-import com.dajava.backend.domain.event.entity.SessionData;
-import com.dajava.backend.global.component.analyzer.ClickAnalyzerProperties;
-import com.dajava.backend.global.utils.EventsUtils;
+import com.dajava.api.domain.event.entity.PointerClickEvent;
+import com.dajava.api.domain.event.entity.PointerMoveEvent;
+import com.dajava.api.domain.event.entity.SessionData;
+import com.dajava.api.global.component.analyzer.ClickAnalyzerProperties;
+import com.dajava.api.global.utils.EventsUtils;
 
 import lombok.extern.slf4j.Slf4j;
 

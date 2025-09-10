@@ -12,8 +12,11 @@
           <set>
             <option value="$PROJECT_DIR$/backend" />
             <option value="$PROJECT_DIR$/backend/app-api" />
+            <option value="$PROJECT_DIR$/backend/boot" />
+            <option value="$PROJECT_DIR$/backend/core-application" />
             <option value="$PROJECT_DIR$/backend/core-domain" />
             <option value="$PROJECT_DIR$/backend/support-cache-redis" />
+            <option value="$PROJECT_DIR$/backend/support-notification-mail" />
             <option value="$PROJECT_DIR$/backend/support-persistence" />
           </set>
         </option>

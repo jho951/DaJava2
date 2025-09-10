@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.event.es.service;
+package com.dajava.api.domain.event.es.service;
 
-import com.dajava.backend.domain.event.es.entity.AbusingBaseLine;
+import com.dajava.api.domain.event.es.entity.AbusingBaseLine;
 
 /**
  *

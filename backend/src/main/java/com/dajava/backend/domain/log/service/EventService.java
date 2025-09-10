@@ -1,8 +1,8 @@
-package com.dajava.backend.domain.log.service;
+package com.dajava.api.domain.log.service;
 
-import com.dajava.backend.domain.log.dto.ClickEventRequest;
-import com.dajava.backend.domain.log.dto.MovementEventRequest;
-import com.dajava.backend.domain.log.dto.ScrollEventRequest;
+import com.dajava.api.domain.log.dto.ClickEventRequest;
+import com.dajava.api.domain.log.dto.MovementEventRequest;
+import com.dajava.api.domain.log.dto.ScrollEventRequest;
 
 public interface EventService {
 	/**

@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.scheduler.vaildation;
+package com.dajava.api.domain.event.es.scheduler.vaildation;
 
 import java.io.IOException;
 import java.time.Instant;
@@ -18,9 +18,9 @@ import org.springframework.data.elasticsearch.core.query.CriteriaQuery;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.register.entity.Register;
-import com.dajava.backend.domain.register.repository.RegisterRepository;
-import com.dajava.backend.global.component.analyzer.CleanUpSchedulerProperties;
+import com.dajava.api.domain.register.entity.Register;
+import com.dajava.api.domain.register.repository.RegisterRepository;
+import com.dajava.api.global.component.analyzer.CleanUpSchedulerProperties;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

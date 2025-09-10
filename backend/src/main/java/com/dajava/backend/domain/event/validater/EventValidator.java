@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.validater;
+package com.dajava.api.domain.event.validater;
 
 public interface EventValidator<T> {
 	void validate(T request);

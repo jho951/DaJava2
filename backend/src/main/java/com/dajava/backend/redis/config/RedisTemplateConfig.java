@@ -1,4 +1,4 @@
-package com.dajava.backend.redis.config;
+package com.dajava.api.redis.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

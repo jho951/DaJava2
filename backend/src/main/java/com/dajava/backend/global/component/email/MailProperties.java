@@ -1,4 +1,4 @@
-package com.dajava.backend.global.component.email;
+package com.dajava.api.global.component.email;
 
 // @Component
 // @ConfigurationProperties(prefix = "spring.mail")

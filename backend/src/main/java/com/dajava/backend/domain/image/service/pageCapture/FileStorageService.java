@@ -1,13 +1,13 @@
-package com.dajava.backend.domain.image.service.pageCapture;
+package com.dajava.api.domain.image.service.pageCapture;
 
 import java.util.UUID;
 
 import org.apache.commons.io.FilenameUtils;
 import org.springframework.core.io.Resource;
 
-import com.dajava.backend.domain.image.dto.ImageDimensions;
-import com.dajava.backend.domain.image.dto.ImageSaveResponse;
-import com.dajava.backend.domain.register.entity.PageCaptureData;
+import com.dajava.api.domain.image.dto.ImageDimensions;
+import com.dajava.api.domain.image.dto.ImageSaveResponse;
+import com.dajava.api.domain.register.entity.PageCaptureData;
 
 import jakarta.servlet.http.HttpServletRequest;
 

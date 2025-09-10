@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.scheduler.vaildation;
+package com.dajava.api.domain.event.scheduler.vaildation;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -11,10 +11,10 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.event.entity.PointerScrollEvent;
-import com.dajava.backend.domain.event.entity.SessionData;
-import com.dajava.backend.global.component.analyzer.ScrollAnalyzerProperties;
-import com.dajava.backend.global.utils.EventsUtils;
+import com.dajava.api.domain.event.entity.PointerScrollEvent;
+import com.dajava.api.domain.event.entity.SessionData;
+import com.dajava.api.global.component.analyzer.ScrollAnalyzerProperties;
+import com.dajava.api.global.utils.EventsUtils;
 
 /**
  * 스크롤 이벤트를 분석합니다.

@@ -1,7 +1,7 @@
-package com.dajava.backend.domain.log.dto;
+package com.dajava.api.domain.log.dto;
 
-import com.dajava.backend.domain.log.dto.base.BaseEventRequest;
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.domain.log.dto.base.BaseEventRequest;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotNull;

@@ -1,12 +1,12 @@
-package com.dajava.backend.domain.log.service;
+package com.dajava.api.domain.log.service;
 
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.log.dto.ClickEventRequest;
-import com.dajava.backend.domain.log.dto.MovementEventRequest;
-import com.dajava.backend.domain.log.dto.ScrollEventRequest;
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
-import com.dajava.backend.global.utils.event.EventRedisBuffer;
+import com.dajava.api.domain.log.dto.ClickEventRequest;
+import com.dajava.api.domain.log.dto.MovementEventRequest;
+import com.dajava.api.domain.log.dto.ScrollEventRequest;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.global.utils.event.EventRedisBuffer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

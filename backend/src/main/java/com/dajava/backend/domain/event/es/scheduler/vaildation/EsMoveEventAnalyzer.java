@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.scheduler.vaildation;
+package com.dajava.api.domain.event.es.scheduler.vaildation;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -8,9 +8,9 @@ import java.util.Set;
 
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.event.es.entity.PointerMoveEventDocument;
-import com.dajava.backend.domain.event.exception.PointerEventException;
-import com.dajava.backend.global.component.analyzer.MoveAnalyzerProperties;
+import com.dajava.api.domain.event.es.entity.PointerMoveEventDocument;
+import com.dajava.api.domain.event.exception.PointerEventException;
+import com.dajava.api.global.component.analyzer.MoveAnalyzerProperties;
 
 import lombok.extern.slf4j.Slf4j;
 

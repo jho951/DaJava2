@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.image.dto;
+package com.dajava.api.domain.image.dto;
 
 public record ImageDimensions(
 	int pageWidth,

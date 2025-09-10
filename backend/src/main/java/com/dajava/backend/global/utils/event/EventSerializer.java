@@ -1,4 +1,4 @@
-package com.dajava.backend.global.utils.event;
+package com.dajava.api.global.utils.event;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 

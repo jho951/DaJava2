@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.event.es.scheduler.vaildation;
+package com.dajava.api.domain.event.es.scheduler.vaildation;
 
-import static com.dajava.backend.global.exception.ErrorCode.*;
+import static com.dajava.api.global.exception.ErrorCode.*;
 
 import java.time.Duration;
 import java.util.ArrayList;
@@ -11,9 +11,9 @@ import java.util.Set;
 import org.springframework.stereotype.Component;
 
 
-import com.dajava.backend.domain.event.es.entity.PointerScrollEventDocument;
-import com.dajava.backend.domain.event.exception.PointerEventException;
-import com.dajava.backend.global.component.analyzer.ScrollAnalyzerProperties;
+import com.dajava.api.domain.event.es.entity.PointerScrollEventDocument;
+import com.dajava.api.domain.event.exception.PointerEventException;
+import com.dajava.api.global.component.analyzer.ScrollAnalyzerProperties;
 
 import lombok.extern.slf4j.Slf4j;
 

@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.scheduler;
+package com.dajava.api.domain.event.scheduler;
 
 import java.util.Set;
 import java.util.stream.Collectors;
@@ -6,12 +6,12 @@ import java.util.stream.Collectors;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.event.dto.SessionDataKey;
-import com.dajava.backend.domain.event.service.ActivityHandleService;
-import com.dajava.backend.global.component.analyzer.BufferSchedulerProperties;
-import com.dajava.backend.global.component.buffer.EventBuffer;
-import com.dajava.backend.global.utils.SessionDataKeyUtils;
-import com.dajava.backend.global.utils.TimeUtils;
+import com.dajava.api.domain.event.dto.SessionDataKey;
+import com.dajava.api.domain.event.service.ActivityHandleService;
+import com.dajava.api.global.component.analyzer.BufferSchedulerProperties;
+import com.dajava.api.global.component.buffer.EventBuffer;
+import com.dajava.api.global.utils.SessionDataKeyUtils;
+import com.dajava.api.global.utils.TimeUtils;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

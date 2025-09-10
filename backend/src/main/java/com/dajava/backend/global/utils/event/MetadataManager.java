@@ -1,4 +1,4 @@
-package com.dajava.backend.global.utils.event;
+package com.dajava.api.global.utils.event;
 import org.springframework.data.redis.core.StringRedisTemplate;
 
 import java.util.Set;

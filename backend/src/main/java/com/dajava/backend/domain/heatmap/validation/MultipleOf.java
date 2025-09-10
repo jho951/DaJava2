@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.heatmap.validation;
+package com.dajava.api.domain.heatmap.validation;
 
 import static java.lang.annotation.ElementType.*;
 import static java.lang.annotation.RetentionPolicy.*;

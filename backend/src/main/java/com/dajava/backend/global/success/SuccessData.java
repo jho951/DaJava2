@@ -1,4 +1,4 @@
-package com.dajava.backend.global.success;
+package com.dajava.api.global.success;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AccessLevel;

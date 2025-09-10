@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.entity;
+package com.dajava.api.domain.event.es.entity;
 
 import java.time.LocalDateTime;
 
@@ -8,9 +8,9 @@ import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
-import com.dajava.backend.domain.event.exception.PointerEventException;
-import com.dajava.backend.global.exception.ErrorCode;
-import com.dajava.backend.global.utils.TimeUtils;
+import com.dajava.api.domain.event.exception.PointerEventException;
+import com.dajava.api.global.exception.ErrorCode;
+import com.dajava.api.global.utils.TimeUtils;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

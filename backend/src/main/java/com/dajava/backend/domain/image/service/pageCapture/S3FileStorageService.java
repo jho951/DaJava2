@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.image.service.pageCapture;
+package com.dajava.api.domain.image.service.pageCapture;
 
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
@@ -16,10 +16,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.dajava.backend.domain.image.dto.ImageDimensions;
-import com.dajava.backend.domain.image.dto.ImageSaveResponse;
-import com.dajava.backend.domain.image.exception.ImageException;
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.domain.image.dto.ImageDimensions;
+import com.dajava.api.domain.image.dto.ImageSaveResponse;
+import com.dajava.api.domain.image.exception.ImageException;
+import com.dajava.api.global.exception.ErrorCode;
 
 import lombok.extern.slf4j.Slf4j;
 import software.amazon.awssdk.core.ResponseBytes;

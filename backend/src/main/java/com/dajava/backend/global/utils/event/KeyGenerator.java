@@ -1,10 +1,10 @@
-package com.dajava.backend.global.utils.event;
+package com.dajava.api.global.utils.event;
 
-import com.dajava.backend.domain.log.dto.ClickEventRequest;
-import com.dajava.backend.domain.log.dto.MovementEventRequest;
-import com.dajava.backend.domain.log.dto.ScrollEventRequest;
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
-import com.dajava.backend.global.utils.LogUtils;
+import com.dajava.api.domain.log.dto.ClickEventRequest;
+import com.dajava.api.domain.log.dto.MovementEventRequest;
+import com.dajava.api.domain.log.dto.ScrollEventRequest;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.global.utils.LogUtils;
 
 public class KeyGenerator {
 	private static final String EVENT_CACHE_PREFIX = "event:";

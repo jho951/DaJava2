@@ -1,9 +1,9 @@
-package com.dajava.backend.domain.event.es.entity;
+package com.dajava.api.domain.event.es.entity;
 
 
-import com.dajava.backend.domain.event.exception.AbusingBaseLineException;
-import com.dajava.backend.global.common.BaseTimeEntity;
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.domain.event.exception.AbusingBaseLineException;
+import com.dajava.api.global.common.BaseTimeEntity;
+import com.dajava.api.global.exception.ErrorCode;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

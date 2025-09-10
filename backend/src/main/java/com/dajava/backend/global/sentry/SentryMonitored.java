@@ -1,4 +1,4 @@
-package com.dajava.backend.global.sentry;
+package com.dajava.api.global.sentry;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

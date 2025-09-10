@@ -1,7 +1,7 @@
-package com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.state;
+package com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.state;
 
-import com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.HtmlNode;
-import com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.HtmlParserContext;
+import com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.HtmlNode;
+import com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.HtmlParserContext;
 
 public class TagOpenState implements ParserState {
 	@Override

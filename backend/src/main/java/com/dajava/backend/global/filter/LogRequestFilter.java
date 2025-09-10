@@ -1,4 +1,4 @@
-package com.dajava.backend.global.filter;
+package com.dajava.api.global.filter;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -11,7 +11,7 @@ import org.springframework.core.Ordered;
 import org.springframework.core.annotation.Order;
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.register.service.RegisterCacheService;
+import com.dajava.api.domain.register.service.RegisterCacheService;
 
 import jakarta.servlet.Filter;
 import jakarta.servlet.FilterChain;

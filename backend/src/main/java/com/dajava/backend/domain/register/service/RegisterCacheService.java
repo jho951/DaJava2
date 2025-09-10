@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.register.service;
+package com.dajava.api.domain.register.service;
 
 import java.time.LocalDateTime;
 import java.util.Collections;
@@ -9,8 +9,8 @@ import java.util.concurrent.ConcurrentHashMap;
 
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.register.entity.Register;
-import com.dajava.backend.domain.register.repository.RegisterRepository;
+import com.dajava.api.domain.register.entity.Register;
+import com.dajava.api.domain.register.repository.RegisterRepository;
 
 import lombok.Getter;
 import lombok.extern.slf4j.Slf4j;

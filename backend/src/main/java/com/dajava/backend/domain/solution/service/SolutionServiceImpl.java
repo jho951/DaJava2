@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.solution.service;
+package com.dajava.api.domain.solution.service;
 
-import static com.dajava.backend.global.exception.ErrorCode.*;
+import static com.dajava.api.global.exception.ErrorCode.*;
 
 import java.io.IOException;
 
@@ -9,18 +9,18 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.PlatformTransactionManager;
 import org.springframework.transaction.support.TransactionTemplate;
 
-import com.dajava.backend.domain.email.EmailService;
-import com.dajava.backend.domain.event.entity.SolutionData;
-import com.dajava.backend.domain.event.repository.SolutionDataRepository;
-import com.dajava.backend.domain.register.entity.Register;
-import com.dajava.backend.domain.register.repository.RegisterRepository;
-import com.dajava.backend.domain.solution.dto.SolutionInfoResponse;
-import com.dajava.backend.domain.solution.dto.SolutionResponse;
-import com.dajava.backend.domain.solution.entity.Solution;
-import com.dajava.backend.domain.solution.exception.SolutionException;
-import com.dajava.backend.domain.solution.repository.SolutionRepository;
-import com.dajava.backend.global.config.GeminiApiConfig;
-import com.dajava.backend.global.utils.PasswordUtils;
+import com.dajava.api.domain.email.EmailService;
+import com.dajava.api.domain.event.entity.SolutionData;
+import com.dajava.api.domain.event.repository.SolutionDataRepository;
+import com.dajava.api.domain.register.entity.Register;
+import com.dajava.api.domain.register.repository.RegisterRepository;
+import com.dajava.api.domain.solution.dto.SolutionInfoResponse;
+import com.dajava.api.domain.solution.dto.SolutionResponse;
+import com.dajava.api.domain.solution.entity.Solution;
+import com.dajava.api.domain.solution.exception.SolutionException;
+import com.dajava.api.domain.solution.repository.SolutionRepository;
+import com.dajava.api.global.config.GeminiApiConfig;
+import com.dajava.api.global.utils.PasswordUtils;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 

@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.image.service.pageCapture;
+package com.dajava.api.domain.image.service.pageCapture;
 
 import java.util.Set;
 
@@ -6,9 +6,9 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.image.utils.ImageCleanupUtils;
-import com.dajava.backend.domain.register.entity.PageCaptureData;
-import com.dajava.backend.domain.register.repository.PageCaptureDataRepository;
+import com.dajava.api.domain.image.utils.ImageCleanupUtils;
+import com.dajava.api.domain.register.entity.PageCaptureData;
+import com.dajava.api.domain.register.repository.PageCaptureDataRepository;
 
 import lombok.extern.slf4j.Slf4j;
 import software.amazon.awssdk.regions.Region;

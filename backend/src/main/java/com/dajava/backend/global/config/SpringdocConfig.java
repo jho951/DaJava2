@@ -1,4 +1,4 @@
-package com.dajava.backend.global.config;
+package com.dajava.api.global.config;
 
 import org.springdoc.core.models.GroupedOpenApi;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.image.service.pageCapture;
+package com.dajava.api.domain.image.service.pageCapture;
 
 import java.awt.image.BufferedImage;
 import java.io.ByteArrayInputStream;
@@ -18,10 +18,10 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.dajava.backend.domain.image.dto.ImageDimensions;
-import com.dajava.backend.domain.image.dto.ImageSaveResponse;
-import com.dajava.backend.domain.image.exception.ImageException;
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.domain.image.dto.ImageDimensions;
+import com.dajava.api.domain.image.dto.ImageSaveResponse;
+import com.dajava.api.domain.image.exception.ImageException;
+import com.dajava.api.global.exception.ErrorCode;
 
 /**
  * 캡쳐 이미지를 생성하거나, 기존에 있는 이미지에 덮어쓰는 로직입니다.

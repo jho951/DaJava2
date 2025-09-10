@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.service;
+package com.dajava.api.domain.event.es.service;
 
 import java.time.LocalDateTime;
 import java.time.ZoneId;
@@ -8,8 +8,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
-import com.dajava.backend.domain.event.es.repository.SessionDataDocumentRepository;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.repository.SessionDataDocumentRepository;
 
 import lombok.RequiredArgsConstructor;
 

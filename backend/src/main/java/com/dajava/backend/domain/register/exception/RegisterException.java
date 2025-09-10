@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.register.exception;
+package com.dajava.api.domain.register.exception;
 
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.global.exception.ErrorCode;
 
 import lombok.extern.slf4j.Slf4j;
 

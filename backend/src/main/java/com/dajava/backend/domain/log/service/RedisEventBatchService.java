@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.log.service;
+package com.dajava.api.domain.log.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -6,21 +6,21 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dajava.backend.domain.event.es.entity.PointerClickEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerMoveEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerScrollEventDocument;
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
-import com.dajava.backend.domain.event.es.repository.PointerClickEventDocumentRepository;
-import com.dajava.backend.domain.event.es.repository.PointerMoveEventDocumentRepository;
-import com.dajava.backend.domain.event.es.repository.PointerScrollEventDocumentRepository;
-import com.dajava.backend.domain.event.es.repository.SessionDataDocumentRepository;
-import com.dajava.backend.domain.event.exception.PointerEventException;
-import com.dajava.backend.domain.log.converter.EventConverter;
-import com.dajava.backend.domain.log.dto.ClickEventRequest;
-import com.dajava.backend.domain.log.dto.MovementEventRequest;
-import com.dajava.backend.domain.log.dto.ScrollEventRequest;
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
-import com.dajava.backend.global.utils.event.EventRedisBuffer;
+import com.dajava.api.domain.event.es.entity.PointerClickEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerMoveEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerScrollEventDocument;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.repository.PointerClickEventDocumentRepository;
+import com.dajava.api.domain.event.es.repository.PointerMoveEventDocumentRepository;
+import com.dajava.api.domain.event.es.repository.PointerScrollEventDocumentRepository;
+import com.dajava.api.domain.event.es.repository.SessionDataDocumentRepository;
+import com.dajava.api.domain.event.exception.PointerEventException;
+import com.dajava.api.domain.log.converter.EventConverter;
+import com.dajava.api.domain.log.dto.ClickEventRequest;
+import com.dajava.api.domain.log.dto.MovementEventRequest;
+import com.dajava.api.domain.log.dto.ScrollEventRequest;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.global.utils.event.EventRedisBuffer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

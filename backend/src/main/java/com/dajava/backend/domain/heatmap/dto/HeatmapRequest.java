@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.heatmap.dto;
+package com.dajava.api.domain.heatmap.dto;
 
-import com.dajava.backend.domain.heatmap.validation.MultipleOf;
+import com.dajava.api.domain.heatmap.validation.MultipleOf;
 
 import jakarta.validation.constraints.Max;
 import jakarta.validation.constraints.Min;

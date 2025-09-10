@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.log.dto.identifier;
+package com.dajava.api.domain.log.dto.identifier;
 
 import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.NotNull;

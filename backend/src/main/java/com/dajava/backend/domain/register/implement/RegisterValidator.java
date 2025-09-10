@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.register.implement;
+package com.dajava.api.domain.register.implement;
 
-import static com.dajava.backend.global.exception.ErrorCode.*;
+import static com.dajava.api.global.exception.ErrorCode.*;
 
 import java.time.LocalDateTime;
 import java.util.regex.Matcher;
@@ -8,12 +8,12 @@ import java.util.regex.Pattern;
 
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.register.dto.register.RegisterCreateRequest;
-import com.dajava.backend.domain.register.dto.register.RegisterModifyRequest;
-import com.dajava.backend.domain.register.dto.register.RegistersInfoRequest;
-import com.dajava.backend.domain.register.entity.Register;
-import com.dajava.backend.domain.register.exception.RegisterException;
-import com.dajava.backend.domain.register.repository.RegisterRepository;
+import com.dajava.api.domain.register.dto.register.RegisterCreateRequest;
+import com.dajava.api.domain.register.dto.register.RegisterModifyRequest;
+import com.dajava.api.domain.register.dto.register.RegistersInfoRequest;
+import com.dajava.api.domain.register.entity.Register;
+import com.dajava.api.domain.register.exception.RegisterException;
+import com.dajava.api.domain.register.repository.RegisterRepository;
 
 import lombok.RequiredArgsConstructor;
 

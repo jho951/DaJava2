@@ -1,4 +1,4 @@
-package com.dajava.backend.global.component.buffer;
+package com.dajava.api.global.component.buffer;
 
 import java.util.HashSet;
 import java.util.List;
@@ -6,10 +6,10 @@ import java.util.Set;
 
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.event.dto.PointerClickEventRequest;
-import com.dajava.backend.domain.event.dto.PointerMoveEventRequest;
-import com.dajava.backend.domain.event.dto.PointerScrollEventRequest;
-import com.dajava.backend.domain.event.dto.SessionDataKey;
+import com.dajava.api.domain.event.dto.PointerClickEventRequest;
+import com.dajava.api.domain.event.dto.PointerMoveEventRequest;
+import com.dajava.api.domain.event.dto.PointerScrollEventRequest;
+import com.dajava.api.domain.event.dto.SessionDataKey;
 
 import lombok.Getter;
 

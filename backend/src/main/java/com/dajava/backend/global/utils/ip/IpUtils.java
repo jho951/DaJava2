@@ -1,4 +1,4 @@
-package com.dajava.backend.global.utils.ip;
+package com.dajava.api.global.utils.ip;
 
 import jakarta.servlet.http.HttpServletRequest;
 

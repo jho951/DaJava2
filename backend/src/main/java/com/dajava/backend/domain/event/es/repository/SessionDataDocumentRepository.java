@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.repository;
+package com.dajava.api.domain.event.es.repository;
 
 import java.util.List;
 import java.util.Optional;
@@ -8,7 +8,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.data.jpa.repository.Query;
 
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
 
 /**
  * 세션 데이터를 저장하는 ES 인덱스 입니다.

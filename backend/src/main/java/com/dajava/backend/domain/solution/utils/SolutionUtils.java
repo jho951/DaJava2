@@ -1,11 +1,11 @@
-package com.dajava.backend.domain.solution.utils;
+package com.dajava.api.domain.solution.utils;
 
-import static com.dajava.backend.global.exception.ErrorCode.*;
+import static com.dajava.api.global.exception.ErrorCode.*;
 
 import java.util.List;
 
-import com.dajava.backend.domain.solution.dto.SolutionRequest;
-import com.dajava.backend.domain.solution.exception.SolutionException;
+import com.dajava.api.domain.solution.dto.SolutionRequest;
+import com.dajava.api.domain.solution.exception.SolutionException;
 
 public final class SolutionUtils {
 	/**

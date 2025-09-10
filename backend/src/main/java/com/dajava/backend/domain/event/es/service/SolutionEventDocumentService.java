@@ -1,8 +1,8 @@
-package com.dajava.backend.domain.event.es.service;
+package com.dajava.api.domain.event.es.service;
 
 import java.util.List;
 
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
 
 /**
  *

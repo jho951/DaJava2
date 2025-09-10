@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.log.service;
+package com.dajava.api.domain.log.service;
 
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
 
 public interface SessionService {
 	/**

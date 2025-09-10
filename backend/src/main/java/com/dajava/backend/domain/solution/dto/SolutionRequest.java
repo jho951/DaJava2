@@ -1,12 +1,12 @@
-package com.dajava.backend.domain.solution.dto;
+package com.dajava.api.domain.solution.dto;
 
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.dajava.backend.domain.event.entity.SolutionData;
-import com.dajava.backend.domain.event.entity.SolutionEvent;
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.event.entity.SolutionData;
+import com.dajava.api.domain.event.entity.SolutionEvent;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

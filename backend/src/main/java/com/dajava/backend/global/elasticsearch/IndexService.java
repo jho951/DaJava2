@@ -1,4 +1,4 @@
-package com.dajava.backend.global.elasticsearch;
+package com.dajava.api.global.elasticsearch;
 
 import org.springframework.data.elasticsearch.core.ElasticsearchOperations;
 import org.springframework.data.elasticsearch.core.mapping.IndexCoordinates;

@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.register.constant;
+package com.dajava.api.domain.register.constant;
 
 /**
  * RegisterConstant

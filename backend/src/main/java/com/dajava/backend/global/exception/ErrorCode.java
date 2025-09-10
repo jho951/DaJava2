@@ -1,6 +1,6 @@
-package com.dajava.backend.global.exception;
+package com.dajava.api.global.exception;
 
-import static com.dajava.backend.domain.register.constant.RegisterConstant.*;
+import static com.dajava.api.domain.register.constant.RegisterConstant.*;
 
 import org.springframework.http.HttpStatus;
 

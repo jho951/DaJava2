@@ -1,11 +1,11 @@
-package com.dajava.backend.domain.log.service;
+package com.dajava.api.domain.log.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
-import com.dajava.backend.domain.event.es.repository.SessionDataDocumentRepository;
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.repository.SessionDataDocumentRepository;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
 
 import lombok.RequiredArgsConstructor;
 

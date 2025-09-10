@@ -1,16 +1,16 @@
-package com.dajava.backend.domain.event.service;
+package com.dajava.api.domain.event.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dajava.backend.domain.event.dto.PointerClickEventRequest;
-import com.dajava.backend.domain.event.dto.PointerMoveEventRequest;
-import com.dajava.backend.domain.event.dto.PointerScrollEventRequest;
-import com.dajava.backend.domain.event.dto.SessionDataKey;
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
-import com.dajava.backend.domain.event.es.repository.SessionDataDocumentRepository;
-import com.dajava.backend.domain.event.repository.SessionDataRepository;
-import com.dajava.backend.global.component.buffer.EventBuffer;
+import com.dajava.api.domain.event.dto.PointerClickEventRequest;
+import com.dajava.api.domain.event.dto.PointerMoveEventRequest;
+import com.dajava.api.domain.event.dto.PointerScrollEventRequest;
+import com.dajava.api.domain.event.dto.SessionDataKey;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.repository.SessionDataDocumentRepository;
+import com.dajava.api.domain.event.repository.SessionDataRepository;
+import com.dajava.api.global.component.buffer.EventBuffer;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

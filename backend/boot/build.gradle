@@ -1,0 +1,19 @@
+// boot/build.gradle
+plugins {
+    id 'org.springframework.boot' version "${springBootVersion}"
+    id 'io.spring.dependency-management'
+    id 'java'
+}
+java { toolchain { languageVersion = JavaLanguageVersion.of(Integer.valueOf(findProperty('javaVersion') ?: '17')) } }
+
+dependencies {
+    implementation project(':app-api')
+    implementation project(':support-persistence')
+    implementation project(':support-cache-redis')
+    implementation project(':support-notification-mail')
+
+    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+tasks.withType(Test).configureEach { useJUnitPlatform() }

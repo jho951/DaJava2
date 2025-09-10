@@ -1,4 +1,4 @@
-package com.dajava.backend.global.utils.session;
+package com.dajava.api.global.utils.session;
 
 import java.util.HashSet;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Set;
 
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
 
 import lombok.RequiredArgsConstructor;
 

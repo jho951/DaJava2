@@ -1,10 +1,10 @@
-package com.dajava.backend.domain.event.es.service;
+package com.dajava.api.domain.event.es.service;
 
 import java.util.List;
 
-import com.dajava.backend.domain.event.es.entity.PointerClickEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerMoveEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerScrollEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerClickEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerMoveEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerScrollEventDocument;
 
 /**
  *

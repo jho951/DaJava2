@@ -1,4 +1,4 @@
-package com.dajava.backend.global.common;
+package com.dajava.api.global.common;
 
 import java.time.LocalDateTime;
 

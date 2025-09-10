@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.repository;
+package com.dajava.api.domain.event.es.repository;
 
 import java.util.List;
 
@@ -6,7 +6,7 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 import org.springframework.stereotype.Repository;
 
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
 
 /**
  * SolutionEventDocumentRepository

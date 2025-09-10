@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.controller;
+package com.dajava.api.domain.event.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -8,13 +8,13 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dajava.backend.domain.event.dto.PointerClickEventRequest;
-import com.dajava.backend.domain.event.dto.PointerMoveEventRequest;
-import com.dajava.backend.domain.event.dto.PointerScrollEventRequest;
-import com.dajava.backend.domain.event.service.EventLogService;
-import com.dajava.backend.domain.event.validater.EventValidation;
-import com.dajava.backend.domain.event.validater.EventValidator;
-import com.dajava.backend.global.log.Loggable;
+import com.dajava.api.domain.event.dto.PointerClickEventRequest;
+import com.dajava.api.domain.event.dto.PointerMoveEventRequest;
+import com.dajava.api.domain.event.dto.PointerScrollEventRequest;
+import com.dajava.api.domain.event.service.EventLogService;
+import com.dajava.api.domain.event.validater.EventValidation;
+import com.dajava.api.domain.event.validater.EventValidator;
+import com.dajava.api.global.log.Loggable;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

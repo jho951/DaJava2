@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.log.enums;
+package com.dajava.api.domain.log.enums;
 
 import lombok.Getter;
 

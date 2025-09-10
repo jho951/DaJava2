@@ -1,6 +1,6 @@
-package com.dajava.backend.global.utils;
+package com.dajava.api.global.utils;
 
-import com.dajava.backend.domain.event.dto.SessionDataKey;
+import com.dajava.api.domain.event.dto.SessionDataKey;
 
 /**
  * key와 SessionDataKey DTO간의 변환 유틸입니다.

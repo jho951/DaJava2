@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.register.scheduler;
+package com.dajava.api.domain.register.scheduler;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -8,9 +8,9 @@ import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dajava.backend.domain.image.service.pageCapture.FileCleanupService;
-import com.dajava.backend.domain.register.entity.Register;
-import com.dajava.backend.domain.register.repository.RegisterRepository;
+import com.dajava.api.domain.image.service.pageCapture.FileCleanupService;
+import com.dajava.api.domain.register.entity.Register;
+import com.dajava.api.domain.register.repository.RegisterRepository;
 
 import lombok.extern.slf4j.Slf4j;
 

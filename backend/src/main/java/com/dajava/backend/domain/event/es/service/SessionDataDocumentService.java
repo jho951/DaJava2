@@ -1,10 +1,10 @@
-package com.dajava.backend.domain.event.es.service;
+package com.dajava.api.domain.event.es.service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
 
 /**
  *

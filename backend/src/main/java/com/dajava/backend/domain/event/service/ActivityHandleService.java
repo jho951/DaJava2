@@ -1,9 +1,9 @@
-package com.dajava.backend.domain.event.service;
+package com.dajava.api.domain.event.service;
 
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dajava.backend.domain.event.dto.SessionDataKey;
+import com.dajava.api.domain.event.dto.SessionDataKey;
 
 import lombok.RequiredArgsConstructor;
 

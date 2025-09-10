@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.service;
+package com.dajava.api.domain.event.es.service;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -11,16 +11,16 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.event.es.entity.PointerClickEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerMoveEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerScrollEventDocument;
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
-import com.dajava.backend.domain.event.es.repository.PointerClickEventDocumentRepository;
-import com.dajava.backend.domain.event.es.repository.PointerMoveEventDocumentRepository;
-import com.dajava.backend.domain.event.es.repository.PointerScrollEventDocumentRepository;
-import com.dajava.backend.domain.event.es.repository.SessionDataDocumentRepository;
-import com.dajava.backend.domain.event.exception.PointerEventException;
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.domain.event.es.entity.PointerClickEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerMoveEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerScrollEventDocument;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.repository.PointerClickEventDocumentRepository;
+import com.dajava.api.domain.event.es.repository.PointerMoveEventDocumentRepository;
+import com.dajava.api.domain.event.es.repository.PointerScrollEventDocumentRepository;
+import com.dajava.api.domain.event.es.repository.SessionDataDocumentRepository;
+import com.dajava.api.domain.event.exception.PointerEventException;
+import com.dajava.api.global.exception.ErrorCode;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.image.controller;
+package com.dajava.api.domain.image.controller;
 
 import org.springframework.core.io.Resource;
 import org.springframework.http.MediaType;
@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dajava.backend.domain.image.service.pageCapture.FileStorageService;
+import com.dajava.api.domain.image.service.pageCapture.FileStorageService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

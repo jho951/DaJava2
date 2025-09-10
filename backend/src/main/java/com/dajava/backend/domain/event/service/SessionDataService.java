@@ -1,13 +1,13 @@
-package com.dajava.backend.domain.event.service;
+package com.dajava.api.domain.event.service;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.event.dto.SessionDataKey;
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
-import com.dajava.backend.domain.event.es.repository.SessionDataDocumentRepository;
+import com.dajava.api.domain.event.dto.SessionDataKey;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.repository.SessionDataDocumentRepository;
 
 import lombok.RequiredArgsConstructor;
 

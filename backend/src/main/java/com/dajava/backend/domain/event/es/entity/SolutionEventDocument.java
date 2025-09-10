@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.entity;
+package com.dajava.api.domain.event.es.entity;
 
 import java.time.LocalDateTime;
 import java.util.UUID;
@@ -9,7 +9,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
 
-import com.dajava.backend.global.utils.TimeUtils;
+import com.dajava.api.global.utils.TimeUtils;
 
 import lombok.AccessLevel;
 import lombok.AllArgsConstructor;

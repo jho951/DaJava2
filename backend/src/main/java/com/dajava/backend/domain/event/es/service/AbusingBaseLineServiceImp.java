@@ -1,12 +1,12 @@
-package com.dajava.backend.domain.event.es.service;
+package com.dajava.api.domain.event.es.service;
 
-import static com.dajava.backend.global.exception.ErrorCode.*;
+import static com.dajava.api.global.exception.ErrorCode.*;
 
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.event.es.entity.AbusingBaseLine;
-import com.dajava.backend.domain.event.es.repository.AbusingBaseLineRepository;
-import com.dajava.backend.domain.event.exception.AbusingBaseLineException;
+import com.dajava.api.domain.event.es.entity.AbusingBaseLine;
+import com.dajava.api.domain.event.es.repository.AbusingBaseLineRepository;
+import com.dajava.api.domain.event.exception.AbusingBaseLineException;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

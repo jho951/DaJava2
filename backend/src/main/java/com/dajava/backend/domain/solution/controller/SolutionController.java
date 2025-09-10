@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.solution.controller;
+package com.dajava.api.domain.solution.controller;
 
 import java.util.List;
 
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import com.dajava.backend.domain.solution.dto.SolutionInfoResponse;
-import com.dajava.backend.domain.solution.dto.SolutionRequest;
-import com.dajava.backend.domain.solution.dto.SolutionResponse;
-import com.dajava.backend.domain.solution.service.SolutionService;
-import com.dajava.backend.domain.solution.utils.SolutionUtils;
+import com.dajava.api.domain.solution.dto.SolutionInfoResponse;
+import com.dajava.api.domain.solution.dto.SolutionRequest;
+import com.dajava.api.domain.solution.dto.SolutionResponse;
+import com.dajava.api.domain.solution.service.SolutionService;
+import com.dajava.api.domain.solution.utils.SolutionUtils;
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

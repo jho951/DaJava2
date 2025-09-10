@@ -1,15 +1,15 @@
-package com.dajava.backend.global.exception;
+package com.dajava.api.global.exception;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.RestControllerAdvice;
 
-import com.dajava.backend.domain.event.exception.PointerEventException;
-import com.dajava.backend.domain.heatmap.exception.HeatmapException;
-import com.dajava.backend.domain.image.exception.ImageException;
-import com.dajava.backend.domain.register.exception.AdminException;
-import com.dajava.backend.domain.register.exception.RegisterException;
+import com.dajava.api.domain.event.exception.PointerEventException;
+import com.dajava.api.domain.heatmap.exception.HeatmapException;
+import com.dajava.api.domain.image.exception.ImageException;
+import com.dajava.api.domain.register.exception.AdminException;
+import com.dajava.api.domain.register.exception.RegisterException;
 
 import lombok.extern.slf4j.Slf4j;
 

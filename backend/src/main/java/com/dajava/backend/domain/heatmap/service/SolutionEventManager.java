@@ -1,13 +1,13 @@
-package com.dajava.backend.domain.heatmap.service;
+package com.dajava.api.domain.heatmap.service;
 
 import java.util.List;
 import java.util.Objects;
 
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
-import com.dajava.backend.domain.heatmap.validation.ScreenWidthValidator;
-import com.dajava.backend.domain.heatmap.validation.UrlEqualityValidator;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.heatmap.validation.ScreenWidthValidator;
+import com.dajava.api.domain.heatmap.validation.UrlEqualityValidator;
 
 import lombok.extern.slf4j.Slf4j;
 

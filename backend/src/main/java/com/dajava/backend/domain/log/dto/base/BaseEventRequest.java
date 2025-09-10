@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.log.dto.base;
+package com.dajava.api.domain.log.dto.base;
 
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
 import com.fasterxml.jackson.annotation.JsonUnwrapped;
 
 import io.swagger.v3.oas.annotations.media.Schema;

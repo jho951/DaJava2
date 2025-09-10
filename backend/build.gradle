@@ -1,14 +1,22 @@
 plugins {
-    id 'io.spring.dependency-management' version '1.1.7'
+    id 'io.spring.dependency-management' version '1.1.7' apply false
 }
 
 allprojects {
+    group = 'com.dajava'
+    version = '0.0.1-SNAPSHOT'
     repositories { mavenCentral() }
 }
 
-subprojects {
+configure(subprojects - project(':boot')) {
+    apply plugin: 'java-library'
     apply plugin: 'io.spring.dependency-management'
+
+    java { toolchain { languageVersion = JavaLanguageVersion.of(Integer.valueOf(findProperty('javaVersion') ?: '17')) } }
+
     dependencyManagement {
-        imports { mavenBom "org.springframework.boot:spring-boot-dependencies:3.4.4" }
+        imports { mavenBom "org.springframework.boot:spring-boot-dependencies:${springBootVersion}" }
     }
+
+    tasks.withType(Test).configureEach { useJUnitPlatform() }
 }

@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.scheduler.vaildation;
+package com.dajava.api.domain.event.es.scheduler.vaildation;
 
 import java.util.List;
 

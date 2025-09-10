@@ -1,4 +1,4 @@
-package com.dajava.backend.global.exception;
+package com.dajava.api.global.exception;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

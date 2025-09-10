@@ -1,4 +1,4 @@
-package com.dajava.backend.global.sentry;
+package com.dajava.api.global.sentry;
 
 
 import org.aspectj.lang.JoinPoint;

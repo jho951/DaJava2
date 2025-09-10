@@ -1,9 +1,9 @@
-package com.dajava.backend.domain.register.converter;
+package com.dajava.api.domain.register.converter;
 
-import com.dajava.backend.domain.register.EventState;
-import com.dajava.backend.domain.register.RegisterInfo;
-import com.dajava.backend.domain.register.dto.register.RegisterCreateResponse;
-import com.dajava.backend.domain.register.entity.Register;
+import com.dajava.api.domain.register.EventState;
+import com.dajava.api.domain.register.RegisterInfo;
+import com.dajava.api.domain.register.dto.register.RegisterCreateResponse;
+import com.dajava.api.domain.register.entity.Register;
 
 /**
  * RegisterConstant

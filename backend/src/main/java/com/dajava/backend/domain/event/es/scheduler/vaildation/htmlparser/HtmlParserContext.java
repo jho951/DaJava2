@@ -1,10 +1,10 @@
-package com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser;
+package com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser;
 
 import java.util.ArrayDeque;
 import java.util.Deque;
 
-import com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.state.InitState;
-import com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.state.ParserState;
+import com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.state.InitState;
+import com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.state.ParserState;
 
 public class HtmlParserContext {
 

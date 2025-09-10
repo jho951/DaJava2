@@ -1,4 +1,4 @@
-package com.dajava.backend.global.utils.event;
+package com.dajava.api.global.utils.event;
 
 import java.util.Collections;
 import java.util.List;
@@ -8,11 +8,11 @@ import java.util.stream.Collectors;
 
 import org.springframework.data.redis.core.StringRedisTemplate;
 
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
-import com.dajava.backend.domain.log.exception.LogException;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.domain.log.exception.LogException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import static com.dajava.backend.global.exception.ErrorCode.*;
+import static com.dajava.api.global.exception.ErrorCode.*;
 
 /**
  * EventQueueRedisBuffer는 이벤트 객체를 Redis의 리스트(List) 구조를 사용하여

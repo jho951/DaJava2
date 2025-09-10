@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.solution.dto;
+package com.dajava.api.domain.solution.dto;
 
 import jakarta.persistence.Lob;
 import jakarta.validation.constraints.NotBlank;

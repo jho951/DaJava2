@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.image.service.pageCapture;
+package com.dajava.api.domain.image.service.pageCapture;
 
 public interface FileCleanupService {
 

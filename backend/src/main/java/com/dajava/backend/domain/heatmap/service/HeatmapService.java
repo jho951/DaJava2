@@ -1,7 +1,7 @@
-package com.dajava.backend.domain.heatmap.service;
+package com.dajava.api.domain.heatmap.service;
 
-import com.dajava.backend.domain.heatmap.dto.HeatmapResponse;
-import com.dajava.backend.domain.heatmap.dto.HeatmapWidthsResponse;
+import com.dajava.api.domain.heatmap.dto.HeatmapResponse;
+import com.dajava.api.domain.heatmap.dto.HeatmapWidthsResponse;
 
 public interface HeatmapService {
 	/**

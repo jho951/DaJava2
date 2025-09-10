@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.image.utils;
+package com.dajava.api.domain.image.utils;
 
 import java.util.List;
 import java.util.Set;
@@ -6,10 +6,10 @@ import java.util.stream.Collectors;
 
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.register.entity.PageCaptureData;
-import com.dajava.backend.domain.register.entity.Register;
-import com.dajava.backend.domain.register.repository.PageCaptureDataRepository;
-import com.dajava.backend.domain.register.repository.RegisterRepository;
+import com.dajava.api.domain.register.entity.PageCaptureData;
+import com.dajava.api.domain.register.entity.Register;
+import com.dajava.api.domain.register.repository.PageCaptureDataRepository;
+import com.dajava.api.domain.register.repository.RegisterRepository;
 
 @Component
 public class ImageCleanupUtils {

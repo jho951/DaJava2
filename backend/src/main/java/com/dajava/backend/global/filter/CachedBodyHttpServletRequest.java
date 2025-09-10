@@ -1,4 +1,4 @@
-package com.dajava.backend.global.filter;
+package com.dajava.api.global.filter;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;

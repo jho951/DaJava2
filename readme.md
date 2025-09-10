@@ -42,3 +42,17 @@ DAJAVA는 웹 사이트를 대상으로 사용자들의 행동 패턴을 대상�
 ## 🌫️ 플로우 차트
 처음 프로젝트 계획시 목표했던 플로우 차트 <br/>
 ![5](https://github.com/user-attachments/assets/474bd1dc-dd05-4529-b21a-627fe45f8c66)
+
+
+## 🏗️ Modules
+
+- core-domain: Pure domain (entities/value objects/domain services)
+- core-application: Use cases + Ports (EmailSenderPort, *RepositoryPort, CachePort…)
+- app-api: Web adapter (REST controllers, DTO, exception handling, wiring)
+- support-persistence: DB adapter (JPA/MyBatis) — *RepositoryPort implementations
+- support-cache-redis: Redis adapter — CachePort implementation
+- support-notification-mail: Mail adapter — EmailSenderPort implementation
+- boot: Assembly & runtime (@SpringBootApplication, profiles, config)
+
+### Dependency Rules
+domain ← application ← adapters(app-api, support-*) ← boot

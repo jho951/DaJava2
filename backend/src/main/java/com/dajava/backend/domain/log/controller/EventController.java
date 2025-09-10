@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.log.controller;
+package com.dajava.api.domain.log.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,11 +8,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dajava.backend.domain.log.dto.ClickEventRequest;
-import com.dajava.backend.domain.log.dto.MovementEventRequest;
-import com.dajava.backend.domain.log.dto.ScrollEventRequest;
-import com.dajava.backend.domain.log.scheduler.SessionScheduler;
-import com.dajava.backend.domain.log.service.EventService;
+import com.dajava.api.domain.log.dto.ClickEventRequest;
+import com.dajava.api.domain.log.dto.MovementEventRequest;
+import com.dajava.api.domain.log.dto.ScrollEventRequest;
+import com.dajava.api.domain.log.scheduler.SessionScheduler;
+import com.dajava.api.domain.log.service.EventService;
 
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;

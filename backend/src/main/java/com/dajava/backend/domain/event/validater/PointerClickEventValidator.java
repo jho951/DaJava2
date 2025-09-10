@@ -1,8 +1,8 @@
-package com.dajava.backend.domain.event.validater;
+package com.dajava.api.domain.event.validater;
 
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.event.dto.PointerClickEventRequest;
+import com.dajava.api.domain.event.dto.PointerClickEventRequest;
 
 import lombok.extern.slf4j.Slf4j;
 

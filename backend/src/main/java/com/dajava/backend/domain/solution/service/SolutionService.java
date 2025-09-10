@@ -1,9 +1,9 @@
-package com.dajava.backend.domain.solution.service;
+package com.dajava.api.domain.solution.service;
 
-import com.dajava.backend.domain.event.entity.SolutionData;
-import com.dajava.backend.domain.register.exception.RegisterException;
-import com.dajava.backend.domain.solution.dto.SolutionInfoResponse;
-import com.dajava.backend.domain.solution.dto.SolutionResponse;
+import com.dajava.api.domain.event.entity.SolutionData;
+import com.dajava.api.domain.register.exception.RegisterException;
+import com.dajava.api.domain.solution.dto.SolutionInfoResponse;
+import com.dajava.api.domain.solution.dto.SolutionResponse;
 
 import reactor.core.publisher.Mono;
 

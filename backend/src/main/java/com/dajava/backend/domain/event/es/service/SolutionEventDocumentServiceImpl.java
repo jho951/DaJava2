@@ -1,11 +1,11 @@
-package com.dajava.backend.domain.event.es.service;
+package com.dajava.api.domain.event.es.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
-import com.dajava.backend.domain.event.es.repository.SolutionEventDocumentRepository;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.event.es.repository.SolutionEventDocumentRepository;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

@@ -1,4 +1,4 @@
-package com.dajava.backend.global.config;
+package com.dajava.api.global.config;
 
 import java.util.Arrays;
 

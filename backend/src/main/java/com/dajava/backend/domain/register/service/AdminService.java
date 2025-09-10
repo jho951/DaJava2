@@ -1,11 +1,11 @@
-package com.dajava.backend.domain.register.service;
+package com.dajava.api.domain.register.service;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.register.exception.AdminException;
-import com.dajava.backend.global.exception.ErrorCode;
-import com.dajava.backend.global.utils.PasswordUtils;
+import com.dajava.api.domain.register.exception.AdminException;
+import com.dajava.api.global.exception.ErrorCode;
+import com.dajava.api.global.utils.PasswordUtils;
 
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;

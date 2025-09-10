@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.heatmap.service;
+package com.dajava.api.domain.heatmap.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -7,10 +7,10 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
-import com.dajava.backend.domain.event.es.repository.SolutionEventDocumentRepository;
-import com.dajava.backend.domain.heatmap.exception.HeatmapException;
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.event.es.repository.SolutionEventDocumentRepository;
+import com.dajava.api.domain.heatmap.exception.HeatmapException;
+import com.dajava.api.global.exception.ErrorCode;
 
 import co.elastic.clients.elasticsearch._types.ElasticsearchException;
 

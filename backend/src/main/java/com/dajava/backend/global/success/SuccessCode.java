@@ -1,4 +1,4 @@
-package com.dajava.backend.global.success;
+package com.dajava.api.global.success;
 
 import org.springframework.http.HttpStatus;
 

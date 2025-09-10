@@ -1,4 +1,4 @@
-package com.dajava.backend.global.config;
+package com.dajava.api.global.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.jpa.repository.config.EnableJpaAuditing;

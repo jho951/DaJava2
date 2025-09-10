@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.controller;
+package com.dajava.api.domain.event.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.dajava.backend.domain.event.es.scheduler.vaildation.EsAbusingCheckScheduler;
-import com.dajava.backend.domain.event.es.scheduler.vaildation.EsEventCleanUpScheduler;
-import com.dajava.backend.domain.event.es.scheduler.vaildation.EsEventValidateScheduler;
+import com.dajava.api.domain.event.es.scheduler.vaildation.EsAbusingCheckScheduler;
+import com.dajava.api.domain.event.es.scheduler.vaildation.EsEventCleanUpScheduler;
+import com.dajava.api.domain.event.es.scheduler.vaildation.EsEventValidateScheduler;
 
 import io.swagger.v3.oas.annotations.Operation;
 import lombok.RequiredArgsConstructor;

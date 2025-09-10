@@ -1,57 +1,8 @@
-plugins {
-    id 'java'                                              // ← 자바 플러그인 명시
-    id 'org.springframework.boot' version '3.4.4'
-    id 'io.spring.dependency-management' version '1.1.7'   // ← 버전 반드시 명시
-    id 'io.sentry.jvm.gradle' version '5.4.0'              // ← 버전 반드시 명시
-}
-
-group = 'com.dajava'
-version = '0.0.1-SNAPSHOT'
-
-java {
-    toolchain { languageVersion = JavaLanguageVersion.of(21) }
-}
-
-repositories {
-    mavenCentral()                                         // ← 레포지토리 명시
-}
-
-sentry {
-    authToken = System.getenv("SENTRY_AUTH_TOKEN") ?: ""
-    org = "dajava"
-    projectName = "java-spring-boot"
-    includeSourceContext = true
-}
-
 dependencies {
-    // 멀티모듈 의존 (루트가 레포 최상위면 ':backend:core-domain'처럼 계층 경로로!)
-    implementation project(':core-domain')
-    implementation project(':support-persistence')
-    implementation project(':support-cache-redis')
-    // 필요 시
-    // implementation project(':support-messaging-kafka')
-
-    // Spring Boot
+    implementation project(':core-application')
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-validation'
-    implementation 'org.springframework.boot:spring-boot-starter-security'
-    implementation 'org.springframework.boot:spring-boot-starter-mail'
-    implementation 'org.springframework.boot:spring-boot-starter-actuator'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
 
-    // Swagger/OpenAPI
-    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.8.1'
-
-    // WebClient만 필요하면 유지, 리액티브 서버가 목적이면 추가 설정 필요
-    implementation 'org.springframework.boot:spring-boot-starter-webflux'
-
-    // DB 드라이버
-    runtimeOnly 'com.h2database:h2'
-    runtimeOnly 'com.mysql:mysql-connector-j'
-
-    // Test
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
-}
-
-tasks.withType(Test).configureEach {
-    useJUnitPlatform()
 }

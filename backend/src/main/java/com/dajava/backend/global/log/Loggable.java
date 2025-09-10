@@ -1,4 +1,4 @@
-package com.dajava.backend.global.log;
+package com.dajava.api.global.log;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

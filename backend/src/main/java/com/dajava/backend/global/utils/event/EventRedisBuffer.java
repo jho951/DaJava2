@@ -1,14 +1,14 @@
-package com.dajava.backend.global.utils.event;
+package com.dajava.api.global.utils.event;
 
 import java.util.List;
 
 import org.springframework.stereotype.Component;
 
-import com.dajava.backend.domain.log.dto.ClickEventRequest;
-import com.dajava.backend.domain.log.dto.MovementEventRequest;
-import com.dajava.backend.domain.log.dto.ScrollEventRequest;
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
-import com.dajava.backend.global.utils.session.ActiveSessionManager;
+import com.dajava.api.domain.log.dto.ClickEventRequest;
+import com.dajava.api.domain.log.dto.MovementEventRequest;
+import com.dajava.api.domain.log.dto.ScrollEventRequest;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.global.utils.session.ActiveSessionManager;
 
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;

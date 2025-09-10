@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.event.es.repository;
+package com.dajava.api.domain.event.es.repository;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ import org.springframework.data.domain.Sort;
 import org.springframework.data.elasticsearch.annotations.Query;
 import org.springframework.data.elasticsearch.repository.ElasticsearchRepository;
 
-import com.dajava.backend.domain.event.es.entity.PointerScrollEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerScrollEventDocument;
 
 /**
  * 스크롤 이벤트를 저장하는 ES 인덱스 입니다.

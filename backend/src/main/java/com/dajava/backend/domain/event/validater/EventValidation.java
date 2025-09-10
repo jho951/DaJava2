@@ -1,12 +1,12 @@
-package com.dajava.backend.domain.event.validater;
+package com.dajava.api.domain.event.validater;
 
 import java.time.Instant;
 
-import com.dajava.backend.domain.event.es.entity.SessionDataDocument;
-import com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.FSMHtmlParser;
-import com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.HtmlNode;
-import com.dajava.backend.domain.event.exception.PointerEventException;
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.domain.event.es.entity.SessionDataDocument;
+import com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.FSMHtmlParser;
+import com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.HtmlNode;
+import com.dajava.api.domain.event.exception.PointerEventException;
+import com.dajava.api.global.exception.ErrorCode;
 
 import lombok.extern.slf4j.Slf4j;
 

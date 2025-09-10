@@ -1,4 +1,4 @@
-package com.dajava.backend.global.component.scheduler;
+package com.dajava.api.global.component.scheduler;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.context.support.WebApplicationContextUtils;
 
-import com.dajava.backend.domain.register.service.RegisterCacheService;
+import com.dajava.api.domain.register.service.RegisterCacheService;
 
 import jakarta.servlet.ServletContextEvent;
 import jakarta.servlet.ServletContextListener;

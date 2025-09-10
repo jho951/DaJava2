@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.solution.exception;
+package com.dajava.api.domain.solution.exception;
 
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.global.exception.ErrorCode;
 
 public class SolutionException extends RuntimeException {
 	public final ErrorCode errorCode;

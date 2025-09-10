@@ -1,2 +1,21 @@
-rootProject.name = "backend"
-include("app-api","core-domain","support-persistence","support-cache-redis")
+// 플러그인 저장소 - 반드시 최상단
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+    }
+}
+
+// 라이브러리 저장소
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        mavenCentral()
+    }
+}
+
+// 프로젝트 이름/모듈 포함
+rootProject.name = 'backend'
+include 'core-domain', 'core-application', 'app-api',
+        'support-cache-redis', 'support-persistence', 'support-notification-mail',
+        'boot'

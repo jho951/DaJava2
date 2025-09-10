@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.heatmap.service;
+package com.dajava.api.domain.heatmap.service;
 
-import static com.dajava.backend.global.exception.ErrorCode.*;
+import static com.dajava.api.global.exception.ErrorCode.*;
 
 import java.time.Duration;
 import java.time.LocalDateTime;
@@ -17,19 +17,19 @@ import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
-import com.dajava.backend.domain.heatmap.dto.GridCell;
-import com.dajava.backend.domain.heatmap.dto.HeatmapMetadata;
-import com.dajava.backend.domain.heatmap.dto.HeatmapResponse;
-import com.dajava.backend.domain.heatmap.dto.HeatmapWidthsResponse;
-import com.dajava.backend.domain.heatmap.exception.HeatmapException;
-import com.dajava.backend.domain.image.dto.ImageDimensions;
-import com.dajava.backend.domain.image.service.pageCapture.FileStorageService;
-import com.dajava.backend.domain.register.entity.PageCaptureData;
-import com.dajava.backend.domain.register.entity.Register;
-import com.dajava.backend.domain.register.repository.RegisterRepository;
-import com.dajava.backend.domain.solution.exception.SolutionException;
-import com.dajava.backend.global.utils.PasswordUtils;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.heatmap.dto.GridCell;
+import com.dajava.api.domain.heatmap.dto.HeatmapMetadata;
+import com.dajava.api.domain.heatmap.dto.HeatmapResponse;
+import com.dajava.api.domain.heatmap.dto.HeatmapWidthsResponse;
+import com.dajava.api.domain.heatmap.exception.HeatmapException;
+import com.dajava.api.domain.image.dto.ImageDimensions;
+import com.dajava.api.domain.image.service.pageCapture.FileStorageService;
+import com.dajava.api.domain.register.entity.PageCaptureData;
+import com.dajava.api.domain.register.entity.Register;
+import com.dajava.api.domain.register.repository.RegisterRepository;
+import com.dajava.api.domain.solution.exception.SolutionException;
+import com.dajava.api.global.utils.PasswordUtils;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

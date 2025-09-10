@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.state;
+package com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.state;
 
-import com.dajava.backend.domain.event.es.scheduler.vaildation.htmlparser.HtmlParserContext;
+import com.dajava.api.domain.event.es.scheduler.vaildation.htmlparser.HtmlParserContext;
 
 public interface ParserState {
 	void handle(HtmlParserContext context);

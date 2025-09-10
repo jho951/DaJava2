@@ -1,4 +1,4 @@
-package com.dajava.backend.domain.heatmap.dto;
+package com.dajava.api.domain.heatmap.dto;
 
 import java.util.List;
 

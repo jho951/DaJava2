@@ -1,16 +1,16 @@
-package com.dajava.backend.domain.log.converter;
+package com.dajava.api.domain.log.converter;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.dajava.backend.domain.event.es.entity.PointerClickEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerMoveEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerScrollEventDocument;
-import com.dajava.backend.domain.event.es.entity.SolutionEventDocument;
-import com.dajava.backend.domain.log.dto.ClickEventRequest;
-import com.dajava.backend.domain.log.dto.MovementEventRequest;
-import com.dajava.backend.domain.log.dto.ScrollEventRequest;
-import com.dajava.backend.global.utils.TimeUtils;
+import com.dajava.api.domain.event.es.entity.PointerClickEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerMoveEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerScrollEventDocument;
+import com.dajava.api.domain.event.es.entity.SolutionEventDocument;
+import com.dajava.api.domain.log.dto.ClickEventRequest;
+import com.dajava.api.domain.log.dto.MovementEventRequest;
+import com.dajava.api.domain.log.dto.ScrollEventRequest;
+import com.dajava.api.global.utils.TimeUtils;
 
 	public class EventConverter {
 		private EventConverter() {

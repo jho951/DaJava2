@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.log.exception;
+package com.dajava.api.domain.log.exception;
 
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.global.exception.ErrorCode;
 
 public class LogException extends RuntimeException {
 	public final ErrorCode errorCode;

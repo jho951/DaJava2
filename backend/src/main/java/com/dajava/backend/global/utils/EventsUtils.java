@@ -1,15 +1,15 @@
-package com.dajava.backend.global.utils;
+package com.dajava.api.global.utils;
 
 import java.util.Comparator;
 import java.util.List;
 
-import com.dajava.backend.domain.event.entity.PointerClickEvent;
-import com.dajava.backend.domain.event.entity.PointerEvent;
-import com.dajava.backend.domain.event.entity.PointerMoveEvent;
-import com.dajava.backend.domain.event.entity.PointerScrollEvent;
-import com.dajava.backend.domain.event.es.entity.PointerClickEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerMoveEventDocument;
-import com.dajava.backend.domain.event.es.entity.PointerScrollEventDocument;
+import com.dajava.api.domain.event.entity.PointerClickEvent;
+import com.dajava.api.domain.event.entity.PointerEvent;
+import com.dajava.api.domain.event.entity.PointerMoveEvent;
+import com.dajava.api.domain.event.entity.PointerScrollEvent;
+import com.dajava.api.domain.event.es.entity.PointerClickEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerMoveEventDocument;
+import com.dajava.api.domain.event.es.entity.PointerScrollEventDocument;
 
 public class EventsUtils {
 

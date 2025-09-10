@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.event.exception;
+package com.dajava.api.domain.event.exception;
 
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.global.exception.ErrorCode;
 
 public class MalformedHtmlNodeException  extends RuntimeException {
 

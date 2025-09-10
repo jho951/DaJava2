@@ -1,8 +1,8 @@
-package com.dajava.backend.global.utils;
+package com.dajava.api.global.utils;
 
-import static com.dajava.backend.global.exception.ErrorCode.*;
-import com.dajava.backend.domain.log.dto.identifier.SessionIdentifier;
-import com.dajava.backend.domain.log.exception.LogException;
+import static com.dajava.api.global.exception.ErrorCode.*;
+import com.dajava.api.domain.log.dto.identifier.SessionIdentifier;
+import com.dajava.api.domain.log.exception.LogException;
 
 /**
  * Redis 키 생성을 위한 로그 유틸리티 클래스

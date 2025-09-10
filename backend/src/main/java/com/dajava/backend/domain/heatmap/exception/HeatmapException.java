@@ -1,6 +1,6 @@
-package com.dajava.backend.domain.heatmap.exception;
+package com.dajava.api.domain.heatmap.exception;
 
-import com.dajava.backend.global.exception.ErrorCode;
+import com.dajava.api.global.exception.ErrorCode;
 
 public class HeatmapException extends RuntimeException {
 	public final ErrorCode errorCode;
