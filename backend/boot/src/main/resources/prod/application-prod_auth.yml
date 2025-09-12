@@ -1,0 +1,15 @@
+gemini:
+  api:
+    key: ${DAJAVA_AI_API_KEY}
+    url: ${DAJAVA_AI_API_URL}
+
+aws:
+  region: ap-northeast-2
+  credentials:
+    access-key: ${aws.access-key}
+    secret-key: ${aws.secret-key}
+  s3:
+    bucket-name: hyunsanbucket
+    folder: page-captures/
+  cloudfront:
+    domain: https://dajava.s3.chsan626.co.kr/ # 현재는 cloudfront 도메인, 추후 수정 예정

@@ -42,7 +42,6 @@ src/main/resources/application-secret.yml
 src/test/resources/application-test.yml
 db_dev.mv.db
 db_dev.trace.db
-docker-compose.yml
 
 .env
 ../.DS_Store
@@ -50,4 +49,3 @@ docker-compose.yml
 .DS_Store
 src/.DS_Store
 daemon/
-docker-compose.yml.DS_Store

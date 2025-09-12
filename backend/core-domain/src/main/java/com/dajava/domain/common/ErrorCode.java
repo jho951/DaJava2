@@ -1,10 +1,6 @@
 package com.dajava.domain.common;
 
 
-import static com.dajava.api.domain.register.constant.RegisterConstant.*;
-
-import org.springframework.http.HttpStatus;
-
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 

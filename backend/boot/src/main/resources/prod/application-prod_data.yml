@@ -1,0 +1,12 @@
+spring:
+  cache:
+    type: redis
+
+  data:
+    redis:
+      host: dajava.db.chsan626.co.kr
+      port: 6379
+      password: ${db.redis.password}
+
+  elasticsearch:
+    uris: http://dajava.db.chsan626.co.kr:9200/

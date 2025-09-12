@@ -1,0 +1,4 @@
+implementation project(':core-application')
+// S3 사용 시
+implementation 'software.amazon.awssdk:s3'
+// 혹은 Spring Cloud AWS를 쓴다면 해당 스타터

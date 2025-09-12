@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  jackson:
+    deserialization:
+      fail-on-null-for-primitives: true
+  servlet:
+    multipart:
+      max-file-size: ${spring.servlet.multipart.max-request-size}
+      max-request-size: 10MB

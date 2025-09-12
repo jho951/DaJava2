@@ -1,0 +1,5 @@
+springdoc:
+  swagger-ui:
+    urls:
+      - name: production
+        url: https://dajava.pg.chsan626.co.kr/swagger-ui/index.html

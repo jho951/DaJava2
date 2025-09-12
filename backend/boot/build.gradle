@@ -11,9 +11,14 @@ dependencies {
     implementation project(':support-persistence')
     implementation project(':support-cache-redis')
     implementation project(':support-notification-mail')
+    implementation project(':support-storage')
 
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.junit.jupiter:junit-jupiter'
 }
 
 tasks.withType(Test).configureEach { useJUnitPlatform() }
