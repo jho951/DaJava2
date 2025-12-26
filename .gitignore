@@ -1,0 +1,25 @@
+# macOS
+.DS_Store
+__MACOSX/
+
+# Gradle
+.gradle/
+**/build/
+
+# IntelliJ / VSCode
+.idea/
+*.iml
+.vscode/
+
+# Java / Spring build outputs
+**/out/
+**/target/
+
+# logs
+*.log
+
+# secrets
+.env
+**/application-secret.yml
+**/*secret*.yml
+**/*secret*.properties

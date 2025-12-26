@@ -4,10 +4,27 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="corretto-17" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app-api" />
+            <option value="$PROJECT_DIR$/boot" />
+            <option value="$PROJECT_DIR$/core-application" />
+            <option value="$PROJECT_DIR$/core-domain" />
+            <option value="$PROJECT_DIR$/support-cache-redis" />
+            <option value="$PROJECT_DIR$/support-notification-mail" />
+            <option value="$PROJECT_DIR$/support-persistence" />
+            <option value="$PROJECT_DIR$/support-storage" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="delegatedBuild" value="false" />
         <option name="testRunner" value="PLATFORM" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/backend" />
-        <option name="gradleJvm" value="corretto-21" />
+        <option name="gradleJvm" value="corretto-17" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/backend" />
@@ -18,6 +35,7 @@
             <option value="$PROJECT_DIR$/backend/support-cache-redis" />
             <option value="$PROJECT_DIR$/backend/support-notification-mail" />
             <option value="$PROJECT_DIR$/backend/support-persistence" />
+            <option value="$PROJECT_DIR$/backend/support-storage" />
           </set>
         </option>
       </GradleProjectSettings>

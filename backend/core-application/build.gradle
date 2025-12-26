@@ -1,9 +1,0 @@
-dependencies {
-    api project(':core-domain')   // 유즈케이스가 도메인을 사용
-    // 선택: 스프링 프레임워크의 트랜잭션만 쓰고 싶다면(부트X)
-    implementation 'org.springframework:spring-tx'
-    // lombok/test
-    compileOnly 'org.projectlombok:lombok'
-    annotationProcessor 'org.projectlombok:lombok'
-    testImplementation 'org.junit.jupiter:junit-jupiter'
-}

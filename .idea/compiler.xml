@@ -6,13 +6,23 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.36/5a30490a6e14977d97d9c73c924c1f1b5311ea95/lombok-1.18.36.jar" />
+          <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.34/ec547ef414ab1d2c040118fb9c1c265ada63af14/lombok-1.18.34.jar" />
         </processorPath>
-        <module name="backend.app-api.main" />
-        <module name="backend.support-persistence.main" />
-        <module name="backend.boot.main" />
-        <module name="backend.core-application.main" />
-        <module name="backend.core-domain.main" />
+        <module name="Dajava2.core-domain.main" />
+        <module name="Dajava2.app-api.test" />
+        <module name="Dajava2.support-persistence.main" />
+        <module name="Dajava2.core-application.main" />
+        <module name="Dajava2.support-notification-mail.main" />
+        <module name="Dajava2.support-persistence.test" />
+        <module name="Dajava2.app-api.main" />
+        <module name="Dajava2.boot.main" />
+        <module name="Dajava2.support-cache-redis.test" />
+        <module name="Dajava2.support-notification-mail.test" />
+        <module name="Dajava2.support-storage.main" />
+        <module name="Dajava2.core-domain.test" />
+        <module name="Dajava2.support-storage.test" />
+        <module name="Dajava2.support-cache-redis.main" />
+        <module name="Dajava2.core-application.test" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -23,6 +33,28 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-parameters" />
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Dajava2" options="" />
+      <module name="Dajava2.app-api" options="" />
+      <module name="Dajava2.app-api.main" options="" />
+      <module name="Dajava2.app-api.test" options="" />
+      <module name="Dajava2.core-application" options="" />
+      <module name="Dajava2.core-application.main" options="" />
+      <module name="Dajava2.core-application.test" options="" />
+      <module name="Dajava2.core-domain" options="" />
+      <module name="Dajava2.core-domain.main" options="" />
+      <module name="Dajava2.core-domain.test" options="" />
+      <module name="Dajava2.support-cache-redis" options="" />
+      <module name="Dajava2.support-cache-redis.main" options="" />
+      <module name="Dajava2.support-cache-redis.test" options="" />
+      <module name="Dajava2.support-notification-mail" options="" />
+      <module name="Dajava2.support-notification-mail.main" options="" />
+      <module name="Dajava2.support-notification-mail.test" options="" />
+      <module name="Dajava2.support-persistence" options="" />
+      <module name="Dajava2.support-persistence.main" options="" />
+      <module name="Dajava2.support-persistence.test" options="" />
+      <module name="Dajava2.support-storage" options="" />
+      <module name="Dajava2.support-storage.main" options="" />
+      <module name="Dajava2.support-storage.test" options="" />
       <module name="backend" options="" />
       <module name="backend.app-api" options="" />
       <module name="backend.app-api.main" options="" />
@@ -42,6 +74,9 @@
       <module name="backend.support-persistence" options="" />
       <module name="backend.support-persistence.main" options="" />
       <module name="backend.support-persistence.test" options="" />
+      <module name="backend.support-storage" options="" />
+      <module name="backend.support-storage.main" options="" />
+      <module name="backend.support-storage.test" options="" />
     </option>
   </component>
 </project>

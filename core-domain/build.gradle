@@ -1,0 +1,4 @@
+dependencies {
+    // 필요 시 애노테이션/유틸만 추가
+    // api 'org.jetbrains:annotations:24.1.0'
+}

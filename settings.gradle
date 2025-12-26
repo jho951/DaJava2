@@ -1,0 +1,10 @@
+rootProject.name = 'Dajava2'
+
+include 'app-api'
+include 'boot'
+include 'core-domain'
+include 'core-application'
+include 'support-cache-redis'
+include 'support-notification-mail'
+include 'support-storage'
+include 'support-persistence'

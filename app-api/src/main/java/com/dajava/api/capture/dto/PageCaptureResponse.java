@@ -1,0 +1,16 @@
+package com.dajava.api.capture.dto;
+
+import io.swagger.v3.oas.annotations.media.Schema;
+
+public record PageCaptureResponse(
+	@Schema(description = "요청의 성공 여부", example = "true")
+	boolean success,
+	@Schema(description = "결과 메시지", example = "페이지 캡쳐 데이터가 성공적으로 업데이트되었습니다.")
+	String message,
+	@Schema(description = "저장된 캡쳐 이미지의 파일명", example = "d4fcb5a1-5cb6-4a95-902c-d2baacf6e9c8.png")
+	String captureFileName
+) {
+	public static PageCaptureResponse from(com.dajava.application.capture.PageCaptureResult result) {
+		return new PageCaptureResponse(result.success(), result.message(), result.captureFileName());
+	}
+}
