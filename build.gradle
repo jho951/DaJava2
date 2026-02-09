@@ -18,7 +18,7 @@ configure(subprojects.findAll { it.name != 'boot' }) {
 
     java {
         toolchain {
-            languageVersion = JavaLanguageVersion.of(Integer.valueOf(findProperty('javaVersion') ?: '17'))
+            languageVersion = JavaLanguageVersion.of(Integer.valueOf(findProperty('javaVersion')))
         }
     }
 
@@ -37,5 +37,12 @@ configure(subprojects.findAll { it.name != 'boot' }) {
         annotationProcessor 'org.projectlombok:lombok:1.18.34'
         testCompileOnly 'org.projectlombok:lombok:1.18.34'
         testAnnotationProcessor 'org.projectlombok:lombok:1.18.34'
+        implementation("org.springframework.security:spring-security-crypto")
+
+        implementation("io.github.jho951:auth-config:1.0.0")
+        implementation("io.github.jho951:auth-api:1.0.0")
+        implementation("io.github.jho951:auth-spi:1.0.0")
+        implementation("io.github.jho951:auth-core:1.0.0")
+
     }
 }
